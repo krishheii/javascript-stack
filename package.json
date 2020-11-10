@@ -1,10 +1,11 @@
 {
   "name": "javascript-stack",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Implementing Stack Data Structure in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.test.js",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,12 @@
   },
   "keywords": [
     "stack",
-    "javascript"
+    "javascript",
+    "stack in javascript",
+    "stack using array",
+    "javascript stack object",
+    "create a stack javascript",
+    "stack declaration javascript"
   ],
   "author": "Krishnanunny H",
   "license": "MIT",
