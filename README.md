@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/javascript-stack.svg)](https://badge.fury.io/js/javascript-stack)
+[![npm version](https://img.shields.io/badge/npm-v1.0.3-blue)](https://www.npmjs.com/package/javascript-stack)
 [![license](https://img.shields.io/github/license/krishheii/javascript-stack)](LICENSE-MIT)
 
 # Javascript Stack
