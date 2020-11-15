@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/badge/npm-v1.0.3-blue)](https://www.npmjs.com/package/javascript-stack)
+[![npm version](https://img.shields.io/badge/npm-v1.2.0-blue)](https://www.npmjs.com/package/javascript-stack)
 [![license](https://img.shields.io/github/license/krishheii/javascript-stack)](LICENSE-MIT)
 
 # Javascript Stack
@@ -74,6 +74,9 @@ Method Name | Return  | Description
 `pop()` | No | Removes the last element from the stack.
 `peek()` | Yes | Returns the top element of the stack.
 `showStack()` | Yes | Prints all the element in the stack.
+`isEmpty()` | Yes | Return a boolean value whether the stack is empty or not.
+`maximumElement()` | Yes | Return the maximum integer element in the stack.
+`minimumElement()` | Yes | Return the minimum integer element in the stack.
 
 
 
