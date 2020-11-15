@@ -68,19 +68,14 @@ const stackElements = stackOne.showStack();
 
 **Available methods for a stack instance:**
 
--   ### push()
+Method Name | Return  | Description
+--- | --- | --- 
+`push()` | No | Pushes an element to the top of the stack.
+`pop()` | No | Removes the last element from the stack.
+`peek()` | Yes | Returns the top element of the stack.
+`showStack()` | Yes | Prints all the element in the stack.
 
-    Pushes an element to the top of the stack
 
--   ### pop()
-
-    Removes the last element from the stack
-
--   ### peek()
-    Returns the top element of the stack
-- ### showStack()
-    Prints all the element in the stack
----
 
 ## License
 
