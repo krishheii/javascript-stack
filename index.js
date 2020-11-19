@@ -64,4 +64,9 @@ module.exports = class Stack {
   minimumElement() {
     return this.minStack[this.minStack.length - 1];
   }
+
+  size() {
+    return this.mainStack.length;
+  }
+
 };
