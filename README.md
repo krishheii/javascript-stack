@@ -76,6 +76,7 @@ Method Name | Return  | Description
 `showStack()` | Yes | Prints all the element in the stack.
 `isEmpty()` | Yes | Return a boolean value whether the stack is empty or not.
 `size()` | Yes | Return the total size of the stack.
+`clear()` | No | Clear all the values in the stack.
 `maximumElement()` | Yes | Return the maximum integer element in the stack.
 `minimumElement()` | Yes | Return the minimum integer element in the stack.
 

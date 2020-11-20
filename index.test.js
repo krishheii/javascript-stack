@@ -66,8 +66,17 @@ const stackTwo = new Stack();
 stackTwo.push(200);
 stackTwo.push(300);
 
-if(stackTwo.size()!==2) {
-  throw new Error("size operation failed");
+if (stackTwo.size() !== 2) {
+  throw new Error("Size operation failed");
 } else {
-  console.log("size operation sucessfully working");
+  console.log("Size operation sucessfully working");
+}
+
+// Stack clear operation test case
+
+stackTwo.clear();
+if (stackTwo.size() === 0) {
+  console.log("Clear operation sucessfully working");
+} else {
+  throw new Error("Clear operation failed");
 }

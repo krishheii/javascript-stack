@@ -69,4 +69,12 @@ module.exports = class Stack {
     return this.mainStack.length;
   }
 
+  clear() {
+    this.mainStack = [];
+    this.maxStack = [];
+    this.minStack = [];
+    this.maxStack.push(Number.MIN_VALUE);
+    this.minStack.push(Number.MAX_VALUE);
+  }
+
 };
