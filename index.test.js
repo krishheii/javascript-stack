@@ -80,3 +80,15 @@ if (stackTwo.size() === 0) {
 } else {
   throw new Error("Clear operation failed");
 }
+
+// Stack toArray operation test case
+const stackThree = new Stack();
+stackThree.push('a');
+stackThree.push('b');
+stackThree.push('c');
+const stackArr = stackThree.toArray();
+if(stackArr[0]==='a' && stackArr[1]==='c') {
+  console.log("toArray operation sucessfully working");
+} else {
+  throw new Error("toArray operation failed");
+}

@@ -79,6 +79,7 @@ Method Name | Return  | Description
 `clear()` | No | Clear all the values in the stack.
 `maximumElement()` | Yes | Return the maximum integer element in the stack.
 `minimumElement()` | Yes | Return the minimum integer element in the stack.
+`toArray()` | Yes | Converte the stack into an array.
 
 
 

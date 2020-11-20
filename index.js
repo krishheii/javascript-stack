@@ -77,4 +77,8 @@ module.exports = class Stack {
     this.minStack.push(Number.MAX_VALUE);
   }
 
+  toArray() {
+    return this.mainStack;
+  }
+
 };
