@@ -81,4 +81,10 @@ module.exports = class Stack {
     return this.mainStack;
   }
 
+  reverseStack() {
+    if(this.mainStack.length>0) {
+      this.mainStack.reverse();
+    }
+  }
+
 };
