@@ -87,4 +87,15 @@ module.exports = class Stack {
     }
   }
 
+  search(value) {
+    if(this.mainStack.length>0) {
+      const found = this.mainStack.find(element => element === value);
+      if(found) {
+        return true;
+      }
+      return false;
+    }
+    return false;
+  }
+
 };

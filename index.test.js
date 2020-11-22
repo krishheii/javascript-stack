@@ -109,3 +109,11 @@ if (
 } else {
   throw new Error("reverseStack operation failed");
 }
+
+// Stack search operation test case
+const found = stackFour.search(2);
+if(found===true) {
+  console.log("search operation sucessfully working");
+} else {
+  throw new Error("search operation failed");
+}
