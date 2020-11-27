@@ -1,15 +1,35 @@
+/* 
+  MIT License
+
+  Copyright (c) 2020 Krishnanunny H
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+ */
+
 const Stack = require("./index");
-
 console.log("Test case started");
-
 const stackOne = new Stack();
-
 console.log("Sucessfully Stack Created");
 
 // Stack push operation test case
 
 stackOne.push(100);
-
 if (stackOne.peek() !== 100) {
   throw new Error("Push operation failed");
 } else {
@@ -21,7 +41,6 @@ if (stackOne.peek() !== 100) {
 stackOne.push(200);
 stackOne.push(300);
 stackOne.pop();
-
 if (stackOne.peek() !== 200) {
   throw new Error("Pop operation failed");
 } else {
@@ -32,7 +51,6 @@ if (stackOne.peek() !== 200) {
 
 stackOne.push(500);
 stackOne.push(700);
-
 if (stackOne.maximumElement() !== 700) {
   throw new Error("MaximumElement operation failed");
 } else {
@@ -46,14 +64,12 @@ if (stackOne.minimumElement() !== 100) {
 } else {
   console.log("Sucessfully found minimum element in the stack");
 }
-
 stackOne.pop();
 stackOne.pop();
 stackOne.pop();
 stackOne.pop();
 stackOne.pop();
 stackOne.pop();
-
 if (!stackOne.isEmpty()) {
   throw new Error("isEmpty operation failed");
 } else {
@@ -65,7 +81,6 @@ if (!stackOne.isEmpty()) {
 const stackTwo = new Stack();
 stackTwo.push(200);
 stackTwo.push(300);
-
 if (stackTwo.size() !== 2) {
   throw new Error("Size operation failed");
 } else {
