@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/badge/npm-v1.4.0-blue)](https://www.npmjs.com/package/javascript-stack)
+[![npm version](https://img.shields.io/badge/npm-v1.4.2-blue)](https://www.npmjs.com/package/javascript-stack)
 [![license](https://img.shields.io/github/license/krishheii/javascript-stack)](LICENSE-MIT)
 
 # Javascript Stack
@@ -82,6 +82,7 @@ Method Name | Return  | Description
 `toArray()` | Yes | Converte the stack into an array.
 `reverseStack()` | No | Reverse the stack data.
 `search()` | Yes | Check whether value found in the stack.
+`cumilativeSum()` | Yes | Return the total sum of the values in a stack.
 
 
 

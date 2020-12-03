@@ -132,3 +132,16 @@ if(found===true) {
 } else {
   throw new Error("search operation failed");
 }
+
+// Stack cumilative sum operation test case
+const stackFive = new Stack();
+stackFive.push(10); 
+stackFive.push(20);
+stackFive.push(20);
+stackFive.push(5);
+const totalSum = stackFive.cumilativeSum();
+if(totalSum===55) {
+  console.log("cumilative sum operation sucessfully working");
+} else {
+  throw new Error("cumilative sum operation failed");
+}

@@ -124,4 +124,14 @@ module.exports = class Stack {
     return false;
   }
 
+  cumilativeSum() {
+    let sum = 0;
+    for(let item of this.mainStack) {
+      if(typeof item === "number") {
+        sum += item;
+      }
+    }
+    return sum;
+  }
+
 };
