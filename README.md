@@ -1,7 +1,8 @@
-[![npm version](https://img.shields.io/badge/npm-v1.4.2-blue)](https://www.npmjs.com/package/javascript-stack)
+[![npm version](https://img.shields.io/badge/npm-v1.4.3-blue)](https://www.npmjs.com/package/javascript-stack)
 [![license](https://img.shields.io/github/license/krishheii/javascript-stack)](LICENSE-MIT)
 
 # Javascript Stack
+![Cerebrum.js logo](https://miro.medium.com/max/700/1*6_eujPeBQhaOcmrKuwSM2A.png)
 
 > Javascript-stack is a package used for implementing Stack Data Structure in Javascript.
 
@@ -83,9 +84,12 @@ Method Name | Return  | Description
 `reverseStack()` | No | Reverse the stack data.
 `search()` | Yes | Check whether value found in the stack.
 `cumilativeSum()` | Yes | Return the total sum of the values in a stack.
+`sortStackAsce()` | No | This function will sort the array in ascending order.
+`sortStackDesc()` | No | This function will sort the array in descending order.
 
 
-
+## Contributing
+If you would like to contribute to this project, take a clone from the main branch and create a new branch, make your changes, and raise a pull request to the main branch by describing the changes. Our team will review the changes and merge them into the main branch. 
 
 ## License
 

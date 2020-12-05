@@ -134,4 +134,12 @@ module.exports = class Stack {
     return sum;
   }
 
+  sortStackAsce() {
+    this.mainStack.sort((a, b) => a - b);
+  }
+
+  sortStackDesc() {
+    this.mainStack.sort((a, b) => b - a);
+  }
+
 };

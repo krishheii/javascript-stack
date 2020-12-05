@@ -145,3 +145,22 @@ if(totalSum===55) {
 } else {
   throw new Error("cumilative sum operation failed");
 }
+
+// Stack ascending and descending order sort operation test case
+const stackSix = new Stack();
+stackSix.push(10); 
+stackSix.push(200);
+stackSix.push(20);
+stackSix.push(5);
+stackSix.sortStackAsce();
+if(stackSix.peek()===200) {
+  console.log("ascending order sort operation operation sucessfully working");
+} else {
+  throw new Error("ascending order sort operation operation failed");
+}
+stackSix.sortStackDesc();
+if(stackSix.peek()===5) {
+  console.log("descending order sort operation operation sucessfully working");
+} else {
+  throw new Error("descending order sort operation operation failed");
+}
